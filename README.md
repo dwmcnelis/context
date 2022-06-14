@@ -1,4 +1,4 @@
-# React useContext hook example
+# React useContext/useReducer mini redux-like store pattern
 
 ## `npm start`
 
