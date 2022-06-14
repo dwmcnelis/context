@@ -1,0 +1,23 @@
+.FilterButton {
+	cursor: pointer;
+	background-color: rgb(0, 153, 255);
+	color: white;
+	padding: 4px;
+	margin: 4px;
+}
+
+.FilterButton:hover {
+	background-color: rgb(2, 92, 151);
+}
+
+.FilterButtonSelected {
+	cursor: pointer;
+	background-color: rgb(2, 92, 151);
+	color: white;
+	padding: 4px;
+	margin: 4px;
+}
+
+.FilterButtonSelected:hover {
+	background-color: rgb(0, 139, 232);
+}

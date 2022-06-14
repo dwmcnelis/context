@@ -1,0 +1,11 @@
+.Filters {
+	display: inline-flex;
+	flex-direction: row;
+	background-color: cadetblue;
+	color: white;
+	padding: 10px;
+}
+
+.Filters button {
+	margin-right: 4px;
+}

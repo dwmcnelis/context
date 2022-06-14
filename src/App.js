@@ -1,17 +1,17 @@
 import './App.css'
-import { UserProvider } from './UserProvider'
-import Nav from './Nav'
-import Page from './Page'
+import { SearchStore, initialState } from './SearchStore'
+import Filters from './Filters'
+import Search from './Search'
 
 const App = () => {
-  return (
-    <div className="App">
-      <UserProvider>
-        <Nav />
-        <Page />
-      </UserProvider>
-    </div>
-  )
+	return (
+		<div className="App">
+			<SearchStore state={initialState}>
+				<Search />
+				<Filters />
+			</SearchStore>
+		</div>
+	)
 }
 
 export default App
